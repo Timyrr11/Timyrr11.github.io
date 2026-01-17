@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inciclopedia</title>
+    <link rel="stylesheet" href="style.css".> 
+</head>
+<body>
+    <header>
+         <a href="index.html" class="logo">Животный мир</a>
+        <nav> 
+            <a href="domasnie.html">домашние</a>
+            <div class="space"></div>
+            <a href="ptici.html">Птицы</a>
+            <div class="space"></div>
+            <a href="vymersie.html">Вымершие</a>
+            <div class="space"></div>
+            <a href="more.html">Больше</a>
+            <div class="space"></div>
+            <input type="text">
+        </nav>
+    </header>
+    <main>
+        <section class="articles">
+    <article class='soroki'>
+        <h1 class="soroka">Сороки</h1>
+        <img src="soroka.jpg" class="sobaka1">
+        <div class="podrobnosti">
+            <a href="soroka.html">
+            Подробнее
+            </a>
+        </div>
+        <p>Птица семейства вороновых с белыми перьями в крыльях, издающая характерные звуки — стрекотание.
+Болтливый, шумный человек, а также тот, кто любит сплетничать (преимущественно о женщине) (разговорное). </p>
+    </article>
+    <article class='pingvin'>
+       <h1 class="pingvinn">Пингвины</h1>
+        <img src="pingvin.jpg">
+        <div class="podrobnosti">
+            <a href="pingvin.html">
+            Подробнее
+            </a>
+        </div>
+        <p>Пингвин — нелетающая птица, приспособленная к охоте и нырянию в воде. Обитают в районах холодных морских течений в южном полушарии. Галапагосский пингвин частично встречается и в северном полушарии. 
+ </p> 
+    </article>
+    <article class='sinica'>
+       <h1 class="sinicaa">Синицы</h1>
+        <img src="sinica.jpg" class="horse1">
+        <div class="podrobnosti">
+            <a href="sinica.html">
+            Подробнее
+            </a>
+        </div>
+        <p>Синица — небольшая птица семейства синицевых отряда воробьинообразных. Для большинства синиц характерны острый короткий клюв, контрастная окраска головы, крепкие ноги с острыми изогнутыми коготками и относительно короткие крылья. 
+ </p> 
+    </article>
+    </section>
+
+<section class="articles">
+    <article class='golub'>
+        <h1 class="golubb">голуби</h1>
+        <img src="golub.jpg" class="rabbit1">
+        <div class="podrobnosti">
+            <a href="golub.html">
+            Подробнее
+            </a>
+        </div>
+        <p>  Голубь — птица семейства голубиных отряда голубеобразных. </p>
+    </article>
+    <article class='djablik'>
+       <h1 class="djabliks">Зяблик</h1>
+        <img src="djablik.jpg" class="hamster1">
+        <div class="podrobnosti">
+            <a href="djablik.html">
+            Подробнее
+            </a>
+        </div>
+        <p> Зяблик (лат. Fringílla coélebs) — певчая птица семейства вьюрковых. </p> 
+    </article>
+    <article class='straus'>
+       <h1 class="strauss">Страусы</h1>
+        <img src="straus.jpg" class="cow1">
+        <div class="podrobnosti">
+            <a href="straus.html">
+            Подробнее
+            </a>
+        </div>
+        <p>Страус — нелетающая бескилевая птица. Единственный современный представитель семейства страусовых </p> 
+    </article>
+    </section>
+    <section class="articles">
+    <article class='soikas'>
+        <h1 class="soika">Сойки</h1>
+        <img src="soika.jpg" class="pig1">
+        <div class="podrobnosti">
+            <a href="soika.html">
+            Подробнее
+            </a>
+        </div>
+        <p> Сойка (также обыкновенная сойка) — птица рода соек семейства врановых отряда воробьинообразных. 
+  </p>
+    </article>
+    <article class='orel'>
+       <h1 class="orels">Орел</h1>
+        <img src="orel.jpg" class="es1">
+        <div class="podrobnosti">
+            <a href="orel.html.">
+            Подробнее
+            </a>
+        </div>
+        <p>«Орёл» — собирательное название крупных дневных хищных птиц с размерами тела от среднего до крупного (за исключением грифов).  </p> 
+    </article>
+    <article class='vorobei'>
+       <h1 class="vorobeis">Воробьи</h1>
+        <img src="vorobei.jpg" class="mors1">
+        <div class="podrobnosti">
+            <a href="vorobei.html">
+            Подробнее
+            </a>
+        </div>
+        <p>Воробьи — семейство птиц отряда воробьинообразных. Насчитывается от 27 до 35 видов. В России наиболее распространены домовый и полевой воробьи.
+ </p> 
+    </article>
+    </section>
+    </main>
+<footer>
+</footer>
+</body>
+</html>
+
+<style>
+    .logo{ 
+    display: inline-block;
+            width: 30%;
+            text-align: center
+}
+
+body {
+    margin: 0;
+    background-image:  url('lapki.jpg');
+}
+
+.podrobnosti {
+    display: flex;
+    justify-content: center;
+}
+
+.podrobnosti a{
+    color: black;
+    background-color: aqua;
+    border-radius: 40px;
+    padding: 5px;
+}
+
+
+
+header {
+    background-color: orange;
+    color: white;
+}
+
+.articles>*{
+    width: 30%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    margin: 20px 0px;
+}
+
+
+
+.articles{ 
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.space{
+            width: 100px;
+            display: inline-block;
+        }
+
+a{
+            text-decoration: none;
+            color: white;
+        }
+
+nav {
+            display: inline-block;
+            width: 60%;
+            text-align: center;}
+
+article img{ 
+    object-fit: contain;
+    height: 300px;
+}
+
+
+</style>
